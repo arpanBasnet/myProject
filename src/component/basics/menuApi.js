@@ -1,10 +1,10 @@
 const Menu = [{
     id : 1,
-    image : "../images/c.jpg",
+    image : "../images/img.jpg",
     name : "maggi",
     category : "lunch",
     price : 25,
-    description :"lorem suissobsjbr"
+    description :"lorem suissobsjbrLorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugi"
     }
     ,
 
@@ -47,7 +47,7 @@ const Menu = [{
   {
     id: 6,
     image: "../images/d.jpg",
-    name: "Non-Veg Thali",
+    name: "Thali Set",
     category: "dinner",
     price: "180₹",
     description:

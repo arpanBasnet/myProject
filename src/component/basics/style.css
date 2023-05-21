@@ -159,6 +159,8 @@ html {
 .navbar {
   padding-top: 50px;
   text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
 .navbar h1 {
@@ -171,11 +173,11 @@ html {
   border-radius: 1rem;
   text-transform: capitalize;
 }
-.btn-group__item {
-  border: none;
+.btn-group_item {
+  border:0;
   /* min-width: 6rem; */
   padding: 1.5rem 3rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(233, 240, 240);
   cursor: pointer;
   margin: 0;
   font-size: 17px;
@@ -183,23 +185,23 @@ html {
   transition: all 300ms ease-out;
   text-transform: capitalize;
 }
-.btn-group__item:last-child {
+.btn-group_item:last-child {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-.btn-group__item:first-child {
+.btn-group_item:first-child {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.btn-group__item:hover,
-.btn-group__item:focus {
+.btn-group_item:hover,
+.btn-group_item:focus {
   color: rebeccapurple;
   box-shadow: inset 0px -20px 0px -15px rebeccapurple;
 }
-.btn-group__item:focus {
+.btn-group_item:focus {
   outline: none;
 }
-.btn-group__item:after {
+.btn-group_item:after {
   content: "✔️";
   margin-left: 0.5rem;
   display: inline-block;
@@ -209,7 +211,7 @@ html {
   opacity: 0;
   transition: all 200ms ease-out;
 }
-.btn-group__item--active:after {
+.btn-group_item--active:after {
   opacity: 1;
   transform: translatey(-2px);
 }
